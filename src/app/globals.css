@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.TH{
+    font-family: var(--font-prompt);
+}
+
+.ENG{
+    font-family: var(--font-urbanist);
+}
+
 .gradient-text {
     background-image: linear-gradient(-20deg, #01395E, #01395E, #3c9ddd, #01395E, #01395E);
     background-clip: text;
@@ -10,6 +18,21 @@
     padding-top: 5%;
 }
 
-.customBlue{
-    background-color: #01395E;
+.grid-con {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    height: 100%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    gap: 8%;
+}
+
+.customBlue1{
+    color: #0076A9;
+}
+
+.customBlack {
+    background-color: #282828;
 }
