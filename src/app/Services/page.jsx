@@ -1,9 +1,9 @@
-import Gallery from "../components/Gallery";
+import React from 'react'
 
-export default function Home() {
+const page = () => {
   return (
-    <main>
-      <Gallery/>
-    </main>
-  );
+    <div>Service</div>
+  )
 }
+
+export default page
