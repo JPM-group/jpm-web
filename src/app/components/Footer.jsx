@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function Footer() {
   return (
-    <footer className="footer p-5 bg-customBlue text-white text-xs">
+    <footer className="ENG footer p-3 bg-customBlue text-white text-xs">
         <aside className='self-center justify-self-center'>
             <Image src="/whiteLogo.png" height={150} width={150} priority={false} alt='jpm logo'></Image>
             <p>©2024 JPMGROUP. All Rights Reserved.</p>
