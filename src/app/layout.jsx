@@ -1,6 +1,7 @@
 import { Urbanist, Prompt} from "next/font/google";
 import "./globals.css";
 import Nav from "./components/Navbar";
+import Footer from "./components/Footer";
 
 export const urbanist = Urbanist({ 
   subsets: ["latin"],
@@ -21,8 +22,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${prompt.variable} ${urbanist.variable}`}>
-      <Nav/>
-      <body>{children}
+      <body>
+        <Nav/>
+        {children}
+        <Footer/>
       </body>
     </html>
   );

@@ -24,12 +24,12 @@ export default function Home() {
       </about>
 
     <service>
-      <div className="h-auto customBlack">
+      <div className="h-auto customBlack pb-14">
         <h2 id='Services' className="ENG mt-24 p-14 text-center text-4xl leading-none tracking-tight text-white md:text-5xl lg:text-6xl dark:text-gray-900">Services</h2>
         <div className="grid-con">
           <div className="pb-5 h-full flex flex-col justify-between">
             <div>
-              <Image src="/service_p1.png" height={290} width={290} alt='service 1' style={{ width: '100%', height: 'auto' }}></Image>
+              <Image src="/service_p1.png" height={290} width={290} priority={true} alt='service 1' style={{ width: '100%', height: 'auto' }}></Image>
               <div className="mt-10 mb-5 pl-3 bg-customBlue">
                 <h3 className="ENG pl-7 p-2 bg-white text-4xl text-customBlue">Interactive program</h3>
               </div>
@@ -44,7 +44,7 @@ export default function Home() {
           </div>
           <div className="pb-5 h-full flex flex-col justify-between">
             <div>
-              <Image src="/service_p2.png" height={322} width={322} alt='service 1' style={{ width: '100%', height: 'auto' }}></Image>
+              <Image src="/service_p2.png" height={322} width={322} priority={true} alt='service 1' style={{ width: '100%', height: 'auto' }}></Image>
               <div className="mt-10 mb-5 pl-3 bg-customBlue">
                 <h3 className="ENG pl-7 p-2 bg-white text-4xl text-customBlue">Mini game for event</h3>
               </div>
@@ -58,7 +58,7 @@ export default function Home() {
           </div>
           <div className="pb-5 h-full flex flex-col justify-between">
             <div>
-              <Image src="/service_p3.png" height={322} width={321} alt='service 1' style={{ width: '100%', height: 'auto' }}></Image>
+              <Image src="/service_p3.png" height={322} width={321} priority={true} alt='service 1' style={{ width: '100%', height: 'auto' }}></Image>
               <div className="mt-10 mb-5 pl-3 bg-customBlue">
                 <h3 className="ENG pl-7 p-2 bg-white text-4xl text-customBlue">Graphic & motion design</h3>
               </div>
@@ -75,24 +75,24 @@ export default function Home() {
     </service>
 
     <contact>
-      <div className='pb-10 flex-col justify-center conten-center'>
+      <div className='py-14 flex-col justify-center conten-center'>
           <h2 id='Contact' className="ENG mb-14 text-center text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white gradient-text">Contact us</h2>
         <div className="ENG mx-64 my-24 flex justify-between text-2xl font-light">
           <div className="flex">
             <a href="tel:0962826224">
-              <Image src="/Phone.png" height={60} width={60} alt='phone logo'></Image>
+              <Image src="/Phone.png" height={60} width={60} priority={false} alt='phone logo'></Image>
             </a>
-            <p className="pl-5 self-center">096-2826224 (May)</p>
+            <p className="pl-5 self-center text-center">096-2826224 (May)</p>
           </div>
           <div className="flex">
             <a href="tel:0962826224">
-              <Image src="/Line.png" height={60} width={60} alt='phone logo'></Image>
+              <Image src="/Line.png" height={60} width={60} priority={false} alt='phone logo'></Image>
             </a>
             <p className="pl-5 self-center">@jpmgroup</p>
           </div>
           <div className="flex">
             <a href="tel:0962826224">
-              <Image src="/Mail.png" height={60} width={60} alt='phone logo'></Image>
+              <Image src="/Mail.png" height={60} width={60} priority={false} alt='phone logo'></Image>
             </a>
             <p className="pl-5 self-center">jpmgroupteam@gmail.com</p>
           </div>
