@@ -45,3 +45,10 @@
 .customBlack {
     background-color: #282828;
 }
+
+@media (max-width: 750px) {
+    .gradient-tab{
+        letter-spacing: 5px;
+        word-spacing: 5px;
+    }
+}

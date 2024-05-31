@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import imagePath from '../program/bg-program.png'
 
 const page = () => {
@@ -13,11 +12,11 @@ const page = () => {
               </h1>
               <p className="mt-5 font-normal text-lg text-customBlue sm:text-xl md:text-2xl lg:text-3xl">interactive program & mini game for event</p>
           </div>
-          <div className='ENG font-extralight gradient-tab text-lg'>Connecting Ideas, Creating Solutions</div>
+          <div className='ENG font-extralight gradient-tab text-xs sm:text-sm md:text-base lg:text-lg '>Connecting Ideas, Creating Solutions</div>
       </heading>
 
-      <project className="grid grid-cols-2 gap-x-24 gap-y-14 my-14">
-        <div className='flex justify-end '>
+      <project className="px-5 grid grid-cols-1 gap-x-24 gap-y-14 my-14 md:grid-cols-2">
+        <div className='flex justify-center lg:justify-end'>
           <div>
             <video width="465" height="auto" controls preload="none" poster='/preload/KIA.png'>
               <source src="/videos/KIA.mp4" type="video/mp4" />
@@ -26,7 +25,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className='flex justify-start '>
+        <div className='flex justify-center lg:justify-start'>
           <div>
             <video width="465" height="232" controls preload="none" poster='/preload/GuitarHero.png'>
               <source src="/videos/GuitarHero.mp4" type="video/mp4" />
@@ -35,7 +34,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className='flex justify-end '>
+        <div className='flex justify-center lg:justify-end'>
           <div>
             <video width="465" height="232" controls preload="none" poster='/preload/GS1.png'>
               <source src="/videos/GS1.mp4" type="video/mp4" />
@@ -44,7 +43,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className='flex justify-start '>
+        <div className='flex justify-center lg:justify-start'>
           <div>
             <video width="465" height="232" controls preload="none" poster='/preload/ColorRemem.png'>
               <source src="/videos/ColorRemember.mp4" type="video/mp4" />
@@ -53,7 +52,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className='flex justify-end '>
+        <div className='flex justify-center lg:justify-end'>
           <div>
             <video width="465" height="232" controls preload="none" poster='/preload/XSPRING.png'>
               <source src="/videos/XSPRING.mp4" type="video/mp4" />
@@ -62,7 +61,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className='flex justify-start '>
+        <div className='flex justify-center lg:justify-start'>
           <div>
             <video width="465" height="232" controls preload="none" poster='/preload/PTTGC.png'>
               <source src="/videos/PTTGC.mp4" type="video/mp4" />
@@ -71,7 +70,7 @@ const page = () => {
           </div>
         </div>
         
-        <div className='flex justify-end '>
+        <div className='flex justify-center lg:justify-end'>
           <div>
             <video width="465" height="232" controls preload="none" poster='/preload/Amazon.png'>
               <source src="/videos/Amazon.mp4" type="video/mp4" />
@@ -80,7 +79,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className='flex justify-start '>
+        <div className='flex justify-center lg:justify-start'>
           <div>
             <video width="465" height="232" controls preload="none" poster='/preload/MuayThai.png'>
               <source src="/videos/PTTGC.mp4" type="video/mp4" />
@@ -89,7 +88,7 @@ const page = () => {
           </div>
         </div>
         
-        <div className='flex justify-end '>
+        <div className='flex justify-center lg:justify-end'>
           <div>
             <video width="465" height="232" controls preload="none" poster='/preload/EGAT.png'>
               <source src="/videos/EGAT.mp4" type="video/mp4" />
@@ -98,7 +97,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className='flex justify-start '>
+        <div className='flex justify-center lg:justify-start'>
           <div>
             <video width="465" height="232" controls preload="none" poster='/preload/Science.png'>
               <source src="/videos/Science.mp4" type="video/mp4" />
@@ -107,7 +106,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className='flex justify-end '>
+        <div className='flex justify-center lg:justify-end'>
           <div>
             <video width="465" height="232" controls preload="none" poster='/preload/BangChak.png'>
               <source src="/videos/BangChak.mp4" type="video/mp4" />
@@ -116,7 +115,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className='flex justify-start '>
+        <div className='flex justify-center lg:justify-start'>
           <div>
             <video width="465" height="232" controls preload="none" poster='/preload/Oishi.png'>
               <source src="/videos/Oishi.mp4" type="video/mp4" />
