@@ -75,7 +75,7 @@ export default function Home() {
     </service>
 
     <contact>
-      <div className='py-14 flex-col justify-center conten-center'>
+      <div className='pt-14 flex-col justify-center conten-center'>
           <h2 id='Contact' className="ENG mb-14 text-center text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white gradient-text">Contact us</h2>
         <div className="ENG mx-64 my-24 flex justify-between text-2xl font-light">
           <div className="flex">
@@ -97,15 +97,6 @@ export default function Home() {
             <p className="pl-5 self-center">jpmgroupteam@gmail.com</p>
           </div>
         </div>
-        <div className="flex items-center justify-center my-10">
-            <div className="border-t border-gray-400 w-1/6"></div>
-            <div className="flex space-x-4 mx-10">
-              <span className="w-2 h-2 bg-customBlue"></span>
-              <span className="w-2 h-2 bg-customBlue"></span>
-              <span className="w-2 h-2 bg-customBlue"></span>
-            </div>
-            <div className="border-t border-gray-400 w-1/6"></div>
-          </div>
       </div>
     </contact>
 

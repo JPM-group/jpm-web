@@ -7,7 +7,9 @@ import {
   PrevButton,
   usePrevNextButtons
 } from './EmblaCarouselArrowButtons'
-import '../carousel/embla.css'
+import './embla.css'
+import Image from 'next/image'
+import pic1 from '../../graphic/image/service_p1.png'
 
 const EmblaCarousel = (props) => {
   const { slides, options } = props
@@ -44,6 +46,8 @@ const EmblaCarousel = (props) => {
             <div className="embla__slide" key={index}>
               <div className="embla__slide__number">
                 <span>{index + 1}</span>
+                {/* <Image className="embla__slide__img" fill style={{objectFit: "contain"}} src={pic1} alt="Your alt text"/> */}
+
               </div>
             </div>
           ))}

@@ -19,4 +19,13 @@ module.exports = {
     },
   },
   plugins: [require('daisyui'),],
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '//picsum.photos.com',
+        port: "",
+      },
+    ],
+  },
 };

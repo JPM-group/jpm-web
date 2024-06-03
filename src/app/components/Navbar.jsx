@@ -33,7 +33,7 @@ const Nav = () => {
                                 <div tabIndex={0} role="button" className='mr-14 block py-2 px-3 rounded md:hover:bg-transparent md:hover:text-lightBlue md:p-0'>ผลงาน</div>
                                 <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-64">
                                     <li><Link href="/program" className="ENG text-lg font-medium md:hover:bg-transparent md:hover:text-lightBlue ">Program development</Link></li>
-                                    <li><Link href="" className="ENG text-lg font-medium md:hover:bg-transparent md:hover:text-lightBlue ">Graphic & motion design</Link></li>
+                                    <li><Link href="/graphic" className="ENG text-lg font-medium md:hover:bg-transparent md:hover:text-lightBlue ">Graphic & motion design</Link></li>
                                 </ul>
                             </div>
                             

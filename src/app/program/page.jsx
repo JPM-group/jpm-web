@@ -123,7 +123,6 @@ const page = () => {
             <h2 className='ENG mt-5 text-center text-3xl text-customBlue'>Oishi</h2>
           </div>
         </div>
-
       </project>
     </>
   )
