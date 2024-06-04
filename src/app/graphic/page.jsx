@@ -1,7 +1,6 @@
 import React from 'react'
 import EmblaCarousel from '../components/carousel/EmblaCarousel'
 import imagePath from '../program/bg-program.png'
-import Embla from '../components/carousel/Embla'
 
 const OPTIONS = { dragFree: true }
 const SLIDE_COUNT = 10
