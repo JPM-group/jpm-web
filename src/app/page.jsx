@@ -25,76 +25,75 @@ export default function Home() {
 
     <service>
       <div className="h-auto customBlack pb-14">
-        <h2 id='Services' className="ENG mt-24 p-14 text-center text-4xl leading-none tracking-tight text-white md:text-5xl lg:text-6xl dark:text-gray-900">Services</h2>
-        <div className="grid-con">
-          <div className="pb-5 h-full flex flex-col justify-between">
+        <h2 id='Services' className="ENG mt-24 p-4 md:p-14 text-center text-4xl leading-none tracking-tight text-white md:text-5xl lg:text-6xl dark:text-gray-900">Services</h2>
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 px-12 sm:px-32 md:px-48 lg:px-36">
+          <div className="pb-5 flex flex-col justify-between">
             <div>
-              <Image src="/service_p1.png" height={290} width={290} priority={true} alt='service 1' style={{ width: '100%', height: 'auto' }}></Image>
+              <Image src="/service_p1.png" height={290} width={290} priority={true} alt='service 1' className="w-full h-auto" />
               <div className="mt-10 mb-5 pl-3 bg-customBlue">
-                <h3 className="ENG pl-7 p-2 bg-white text-4xl text-customBlue">Interactive program</h3>
+                <h3 className="ENG pl-7 p-2 bg-white text-2xl md:text-3xl lg:text-4xl text-customBlue">Interactive program</h3>
               </div>
-              <p className="TH ml-3 pb-3 text-left text-white text-2xl font-extralight">ออกแบบระบบสำหรับเนื้อหาที่ต้องการให้กลุ่มเป้าหมายสามารถมีปฏิสัมพันธ์โต้ตอบกับอุปกรณ์ได้</p>
-              <p className="TH ml-3 pb-3 text-left text-white text-2xl font-extralight">สามารถออกแบบได้ทั้งโปรแกรมที่ทำงานร่วมกับ sensor และระบบที่ไม่ต้องใช้ sensor</p>
-              <p className="TH ml-3 pb-3 text-left text-white text-2xl font-extralight">โปรแกรมที่ออกแบบสามารถใช้งานได้กับอุปกรณ์ที่หลากหลาย เช่น จอ touch screen, จอ LED, projector ฯลฯ</p>
+              <p className="TH ml-3 pb-3 text-left text-white text-base md:text-lg lg:text-2xl font-extralight">ออกแบบระบบสำหรับเนื้อหาที่ต้องการให้กลุ่มเป้าหมายสามารถมีปฏิสัมพันธ์โต้ตอบกับอุปกรณ์ได้</p>
+              <p className="TH ml-3 pb-3 text-left text-white text-base md:text-lg lg:text-2xl font-extralight">สามารถออกแบบได้ทั้งโปรแกรมที่ทำงานร่วมกับ sensor และระบบที่ไม่ต้องใช้ sensor</p>
+              <p className="TH ml-3 pb-3 text-left text-white text-base md:text-lg lg:text-2xl font-extralight">โปรแกรมที่ออกแบบสามารถใช้งานได้กับอุปกรณ์ที่หลากหลาย เช่น จอ touch screen, จอ LED, projector ฯลฯ</p>
             </div>
             <div>
-              <button className="ENG mt-5 bg-white text-customBlue hover:bg-customBlue hover:text-white font-bold py-2 px-4 rounded-full display: block">Idea for Interactive program</button>
-              <button className="TH mt-3 bg-customBlue hover:bg-white hover:text-customBlue text-white py-2 px-4 rounded-full">ผลงานของเรา</button>
+              <button className="ENG mt-5 bg-white text-customBlue hover:bg-customBlue hover:text-white font-bold py-2 px-4 rounded-full block">Idea for Interactive program</button>
+              <button className="TH mt-3 bg-customBlue hover:bg-white hover:text-customBlue text-white py-2 px-4 rounded-full block">ผลงานของเรา</button>
             </div>
           </div>
-          <div className="pb-5 h-full flex flex-col justify-between">
+          <div className="pb-5 flex flex-col justify-between">
             <div>
-              <Image src="/service_p2.png" height={322} width={322} priority={true} alt='service 1' style={{ width: '100%', height: 'auto' }}></Image>
+              <Image src="/service_p2.png" height={322} width={322} priority={true} alt='service 2' className="w-full h-auto" />
               <div className="mt-10 mb-5 pl-3 bg-customBlue">
-                <h3 className="ENG pl-7 p-2 bg-white text-4xl text-customBlue">Mini game for event</h3>
+                <h3 className="ENG pl-7 p-2 bg-white text-2xl md:text-3xl lg:text-4xl text-customBlue">Mini game for event</h3>
               </div>
-              <p className="TH ml-3 pb-3 text-left text-white text-2xl font-extralight">ออกแบบเกมที่ใช้ตามงานอีเวนต์ต่างๆ ทั้งแบบที่ใช้งานร่วมกับ sensor และไม่ต้องใช้ sensor</p>
-              <p className="TH ml-3 pb-3 text-left text-white text-2xl font-extralight">สามารถออกแบบให้ใช้งานได้กับอุปกรณ์ที่ลูกค้าต้องการ เช่น จอ touch screen, จอ LED, projector เป็นต้น</p>
+              <p className="TH ml-3 pb-3 text-left text-white text-base md:text-lg lg:text-2xl font-extralight">ออกแบบเกมที่ใช้ตามงานอีเวนต์ต่างๆ ทั้งแบบที่ใช้งานร่วมกับ sensor และไม่ต้องใช้ sensor</p>
+              <p className="TH ml-3 pb-3 text-left text-white text-base md:text-lg lg:text-2xl font-extralight">สามารถออกแบบให้ใช้งานได้กับอุปกรณ์ที่ลูกค้าต้องการ เช่น จอ touch screen, จอ LED, projector เป็นต้น</p>
             </div>
-            <div className="float-right">
-              <button className="ENG mt-5 bg-white text-customBlue hover:bg-customBlue hover:text-white font-bold py-2 px-4 rounded-full display: block">Idea for Interactive program</button>
-              <button className="TH mt-3 bg-customBlue hover:bg-white hover:text-customBlue text-white py-2 px-4 rounded-full">ผลงานของเรา</button>
+            <div>
+              <button className="ENG mt-5 bg-white text-customBlue hover:bg-customBlue hover:text-white font-bold py-2 px-4 rounded-full block">Idea for Interactive program</button>
+              <button className="TH mt-3 bg-customBlue hover:bg-white hover:text-customBlue text-white py-2 px-4 rounded-full block">ผลงานของเรา</button>
             </div>
           </div>
-          <div className="pb-5 h-full flex flex-col justify-between">
+          <div className="pb-5 flex flex-col justify-between">
             <div>
-              <Image src="/service_p3.png" height={322} width={321} priority={true} alt='service 1' style={{ width: '100%', height: 'auto' }}></Image>
+              <Image src="/service_p3.png" height={322} width={321} priority={true} alt='service 3' className="w-full h-auto" />
               <div className="mt-10 mb-5 pl-3 bg-customBlue">
-                <h3 className="ENG pl-7 p-2 bg-white text-4xl text-customBlue">Graphic & motion design</h3>
+                <h3 className="ENG pl-7 p-2 bg-white text-2xl md:text-3xl lg:text-4xl text-customBlue">Graphic & motion design</h3>
               </div>
-              <p className="TH ml-3 pb-3 text-left text-white text-2xl font-extralight">บริการออกแบบภาพกราฟิก-วิดีโอและโมชั่นต่างๆ ที่จำเป็นต้องใช้ร่วมกับ interactive program/ interactive game</p>
-              <p className="TH ml-3 pb-3 text-left text-white text-2xl font-extralight">รวมถึงรับออกแบบงานดีไซน์สำหรับใช้ในด้านอื่นๆ ไม่ว่าจะเป็น กราฟิกสำหรับโฆษณาบน social media, infographic, catalog, poster, brochure, presentation หรืองาน retouch ภาพ เป็นต้น</p>
+              <p className="TH ml-3 pb-3 text-left text-white text-base md:text-lg lg:text-2xl font-extralight">บริการออกแบบภาพกราฟิก-วิดีโอและโมชั่นต่างๆ ที่จำเป็นต้องใช้ร่วมกับ interactive program/ interactive game</p>
+              <p className="TH ml-3 pb-3 text-left text-white text-base md:text-lg lg:text-2xl font-extralight">รวมถึงรับออกแบบงานดีไซน์สำหรับใช้ในด้านอื่นๆ ไม่ว่าจะเป็น กราฟิกสำหรับโฆษณาบน social media, infographic, catalog, poster, brochure, presentation หรืองาน retouch ภาพ เป็นต้น</p>
             </div>
             <div>
-              <button className="TH mt-3 bg-customBlue hover:bg-white hover:text-customBlue text-white py-2 px-4 rounded-full">ผลงานของเรา</button>
+              <button className="TH mt-3 bg-customBlue hover:bg-white hover:text-customBlue text-white py-2 px-4 rounded-full block">ผลงานของเรา</button>
             </div>
           </div>
         </div>
       </div>
-
     </service>
 
     <contact>
-      <div className='pt-14 flex-col justify-center conten-center'>
-          <h2 id='Contact' className="ENG mb-14 text-center text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white gradient-text">Contact us</h2>
-        <div className="ENG mx-64 my-24 flex justify-between text-2xl font-light">
-          <div className="flex">
+      <div className='pt-14'>
+        <h2 id='Contact' className="ENG mb-14 text-center text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white gradient-text">Contact us</h2>
+        <div className="ENG mx-4 md:mx-24 lg:mx-64 my-24 flex flex-col 2xl:flex-row justify-between text-2xl font-light">
+          <div className="flex p-3 justify-center items-center">
             <a href="tel:0962826224">
-              <Image src="/Phone.png" height={60} width={60} priority={false} alt='phone logo'></Image>
+              <Image src="/Phone.png" height={60} width={60} alt='phone logo' className="w-14 h-14 md:w-16 md:h-16 lg:w-20 lg:h-20" />
             </a>
-            <p className="pl-5 self-center text-center">096-2826224 (May)</p>
+            <p className="pl-5 text-center">096-2826224 (May)</p>
           </div>
-          <div className="flex">
+          <div className="flex p-3 justify-center items-center">
             <a href="tel:0962826224">
-              <Image src="/Line.png" height={60} width={60} priority={false} alt='phone logo'></Image>
+              <Image src="/Line.png" height={60} width={60} alt='line logo' className="w-14 h-14 md:w-16 md:h-16 lg:w-20 lg:h-20" />
             </a>
-            <p className="pl-5 self-center">@jpmgroup</p>
+            <p className="pl-5 text-center">@jpmgroup</p>
           </div>
-          <div className="flex">
-            <a href="tel:0962826224">
-              <Image src="/Mail.png" height={60} width={60} priority={false} alt='phone logo'></Image>
+          <div className="flex p-3 justify-center items-center">
+            <a href="mailto:jpmgroupteam@gmail.com">
+              <Image src="/Mail.png" height={60} width={60} alt='mail logo' className="w-14 h-14 md:w-16 md:h-16 lg:w-20 lg:h-20" />
             </a>
-            <p className="pl-5 self-center">jpmgroupteam@gmail.com</p>
+            <p className="pl-5 text-center">jpmgroupteam@gmail.com</p>
           </div>
         </div>
       </div>

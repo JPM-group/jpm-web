@@ -1,5 +1,6 @@
 import React from 'react'
 import EmblaCarousel from '../components/carousel/EmblaCarousel'
+import VideoCarousel from '../components/carousel/VideoCarousel'
 import imagePath from '../program/bg-program.png'
 
 const OPTIONS = { dragFree: true }
@@ -26,7 +27,7 @@ function page() {
 
       <div className='container my-14 px-5 mx-auto'>
         <h2 className='ENG mx-auto max-w-6xl my-10 text-customBlue text-4xl font-bold'>Motion graphic design works</h2>
-        <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+        <VideoCarousel slides={SLIDES} options={OPTIONS} />
       </div>
     </>
     
